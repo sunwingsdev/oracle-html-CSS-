@@ -1,0 +1,477 @@
+@media all and (max-width: 1460px) {
+  .container {
+    padding: 0 30px;
+  }
+}
+
+@media all and (max-width: 1280px) {
+  .container {
+    padding: 0 20px;
+  }
+  .submenu ul {
+    flex-wrap: nowrap;
+  }
+  .cardContainer {
+    gap: 20px 14px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .banner {
+    height: 500px;
+  }
+  .serviceText {
+    max-width: 800px;
+    color: white;
+  }
+  .customerVideoGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .cardContainer {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .banner {
+    height: 400px;
+  }
+  .serviceContent {
+    flex-direction: column;
+  }
+  .customerVideoGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px 16px;
+  }
+  .customerVideoGridVps {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+  }
+  .USAVpsContain {
+    gap: 14px;
+  }
+}
+
+@media (min-width: 992px) {
+  .menu-toggle {
+    display: none;
+  }
+  .mobileMenuArea,
+  .overlay {
+    display: none !important;
+  }
+}
+@media all and (max-width: 991px) {
+  .menu {
+    display: none;
+  }
+  .community {
+    display: none;
+  }
+  .menu-toggle {
+    display: block;
+  }
+  .mobileMenuSidebar {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 16px;
+    position: fixed;
+    top: 0;
+    left: -300px;
+    width: 280px;
+    height: 100%;
+    background-color: #000c39;
+    z-index: 1000;
+    transition: right 0.3s ease;
+    overflow-y: auto;
+  }
+  .mobileMenuSidebar.active {
+    left: 0;
+  }
+  .community {
+    display: none;
+  }
+  .banner {
+    padding: 60px 0;
+    height: auto;
+    background-image: none;
+  }
+  .bannerText h1 {
+    font-size: 34px;
+  }
+  .bannerText h4 {
+    font-size: 18px;
+  }
+  .bannerText h2 {
+    font-size: 24px;
+  }
+  .awardsContainer {
+    gap: 20px 16px;
+    flex-wrap: wrap;
+  }
+  .videoSectionHeading h2 {
+    font-size: 28px;
+  }
+  .videoSectionHeading {
+    margin: 0 auto 30px;
+  }
+  .serviceText h3,
+  .serviceText h4 {
+    font-size: 22px;
+  }
+  .eightStepsGrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    margin-top: 40px;
+    border: 2px solid #f1f112;
+    padding: 16px;
+  }
+  .poweringContain {
+    gap: 0px;
+    flex-direction: column;
+  }
+  .poweringContain h2 {
+    font-size: 32px;
+  }
+  .evolutionContain {
+    margin-top: 40px;
+    gap: 16px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .oracleFooter {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  .footerLeft {
+    grid-column: span 2;
+  }
+  .footerSecure {
+    grid-column: span 2;
+    text-align: center;
+  }
+  .footerList li {
+    list-style: none;
+  }
+  .displayNone {
+    display: none;
+  }
+  .VPSContain h2 {
+    font-size: 34px;
+  }
+  .VPSContain p {
+    max-width: 700px;
+    font-size: 16px;
+  }
+  .vps-header {
+    padding: 14px 0;
+  }
+  .vps-price {
+    font-size: 2rem;
+    padding: 10px 0;
+  }
+  .vps-features {
+    padding: 30px;
+  }
+  .USAVpsArea {
+    padding: 60px 0;
+  }
+  .itemContainSimilar {
+    gap: 40px;
+    flex-direction: column;
+  }
+  .panel,
+  .itemContainSimilarLeft {
+    width: 100%;
+  }
+  .video-wrapper {
+    padding-bottom: 60%;
+  }
+  .contactContain {
+    flex-direction: column;
+  }
+  .CustomersPayImg {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .ourCustomer,
+  .apiProvider {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media all and (max-width: 767px) {
+  .filterButtons {
+    margin-bottom: 26px;
+  }
+  .filter-btn {
+    padding: 9px 18px;
+    margin: 2px;
+    font-size: 15px;
+  }
+  .cardContainer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .videoLeft {
+    flex: 1 1 348px;
+  }
+  .bannerText h1 {
+    font-size: 30px;
+  }
+  .bannerText h4 {
+    font-size: 17px;
+  }
+  .bannerText h2 {
+    margin-top: 14px;
+    font-size: 23px;
+    font-weight: 600;
+  }
+  .videoSectionHeading h2 {
+    font-size: 26px;
+  }
+  .videoSectionHeading {
+    margin: 0 auto 26px;
+  }
+  .awardsContainer {
+    gap: 16px 14px;
+  }
+  .serviceText h3,
+  .serviceText h4 {
+    font-size: 20px;
+  }
+  .eightStepsGrid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+    margin-top: 34px;
+    padding: 16px;
+  }
+  .videoRight {
+    flex: 1 1 400px;
+  }
+  .counterSection,
+  .customerVideoReviews,
+  .poweringSection,
+  .eightStepsSection,
+  .videoSection,
+  .filterArea,
+  .serviceSection,
+  .awardsSection {
+    padding: 40px 0px;
+  }
+  .poweringContain h2 {
+    font-size: 30px;
+  }
+  .evolutionContain {
+    margin-top: 40px;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .customerVideoGrid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 16px;
+  }
+  .counterItem h2 {
+    font-size: 36px;
+    margin-bottom: 0;
+  }
+  .count {
+    font-size: 28px;
+  }
+  .counterSection h2 {
+    font-size: 30px;
+  }
+  .videoContainer {
+    flex-direction: column;
+  }
+  .videoLeft,
+  .videoRight {
+    width: 100%;
+  }
+  .VPSContain h2 {
+    font-size: 30px;
+  }
+  .customerVideoGridVps {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .VPSHostContain {
+    padding: 60px 0;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .VPSHostLeftSite,
+  .VPSHostRightSit {
+    width: 100%;
+  }
+  .VPSHostRightSit h2 {
+    font-size: 30px;
+  }
+  .vps-card {
+    width: 100%;
+  }
+  .USAVpsContain {
+    flex-direction: column;
+    margin: 40px auto 0;
+  }
+  .USAVpsArea {
+    padding: 40px 0;
+  }
+  .USAVpsArea h2 {
+    font-size: 30px;
+  }
+  .contactUsBanner {
+    padding: 60px 0;
+  }
+  .contactUsArea {
+    padding: 20px 0;
+  }
+  .CustomersPayImg {
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .ourCustomer,
+  .apiProvider {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  /* login */
+  .loginArea .login-wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+  .loginArea .login-left {
+    display: none;
+  }
+  .loginArea .login-right {
+    width: 100%;
+    padding: 30px 20px;
+  }
+  .loginArea .form-box h2 {
+    text-align: center;
+  }
+  .loginArea {
+    padding: 60px 0;
+  }
+}
+
+@media all and (max-width: 567px) {
+  .mobileMenuSidebar {
+    width: 260px;
+  }
+  .cardContainer {
+    gap: 14px;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .bannerText h1 {
+    font-size: 26px;
+  }
+  .bannerText h4 {
+    font-size: 16px;
+  }
+  .bannerText h2 {
+    font-size: 22px;
+  }
+  .text_16 {
+    font-size: 14px;
+  }
+  .videoSectionHeading h2 {
+    font-size: 25px;
+  }
+  .videoSectionHeading {
+    margin: 0 auto 20px;
+  }
+  .awardsContainer {
+    gap: 10px;
+  }
+  .eightStepsGrid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 12px;
+    margin-top: 34px;
+    padding: 16px;
+  }
+  .videoRight {
+    flex: 1 1 360px;
+  }
+  .poweringContain h2 {
+    font-size: 28px;
+  }
+  .counterSection h2 {
+    font-size: 28px;
+  }
+  .oracleFooter {
+    grid-template-columns: 1fr;
+  }
+  .footerLeft,
+  .footerSecure {
+    text-align: center;
+  }
+  .getTouch {
+    flex-direction: column;
+    align-items: center;
+  }
+  .socialIcon {
+    justify-content: center;
+  }
+  .certified img,
+  .footerSecure img {
+    margin: 0 auto;
+  }
+  .footerMiddle h2,
+  .footerRight h2,
+  .footerSecure h2,
+  .getTouch h3 {
+    font-size: 18px;
+  }
+  .text18 {
+    font-size: 14px;
+  }
+  .VPSContain h2 {
+    font-size: 26px;
+  }
+  .customerVideoGridVps {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .USAVpsArea h2 {
+    font-size: 26px;
+  }
+  .video-wrapper {
+    padding-bottom: 70%;
+  }
+  .contactContain .contact-info,
+  .contactContain .contact-section {
+    padding: 20px;
+  }
+  .contactContain .form-row {
+    gap: 12px;
+    margin-bottom: 12px;
+    flex-direction: column;
+  }
+  .CustomersPayImg {
+    gap: 10px;
+  }
+  .feedbackReviews {
+    align-items: center;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .certificate-card {
+    padding: 20px 10px;
+  }
+  .certificate-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .certificate-title {
+    font-size: 16px;
+  }
+  .ourCustomer,
+  .apiProvider {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .loginArea {
+    padding: 40px 0;
+  }
+}
+
+@media all and (max-width: 380px) {
+  .footerBottom,
+  .footerList li a {
+    font-size: 13px;
+  }
+}
